@@ -1,4 +1,3 @@
-// import productList from "./productList";
 import React, { useState, useEffect } from "react";
 import { productOfTheDay, productList } from "./productList";
 
@@ -48,8 +47,6 @@ const App = () => {
 
 
 	function filterProducts() {
-		console.log("s-a schimbat state-ul");
-
 		const filteredProducts = productList.filter((product) => {
 			if (
 				product.name.toLowerCase().includes(filterName.toLowerCase()) &&
