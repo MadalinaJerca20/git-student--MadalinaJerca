@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
-import Title from './components/title.js'
+import Title from './components/1.title.js'
 import List from './components/list.js'
 
 

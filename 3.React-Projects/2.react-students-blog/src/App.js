@@ -1,23 +1,20 @@
-import './App.css';
-import Title from './components/title'
-import List from './components/list'
-import studentsListData from './data/students-list'
-import Subtitle from './components/subtitle'
-import ListArticles from './components/list-articles';
-
+import "./App.css";
+import Title from "./components/1.title";
+import ListStudents from "./components/5.list-students";
+import studentsListData from "./data/students-list-data";
+import Subtitle from "./components/2.subtitle";
+import ListArticles from "./components/7.list-articles";
 
 function App() {
-    return (
+  return (
     <div>
-        <Title title='STUDENTS CODECOOL' />
-        <Subtitle studentsLength = {studentsListData.length} />
-        <List />
-        <Title title='BLOG ARTICLES' />
-        <ListArticles />
+      <Title title="STUDENTS CODECOOL" />
+      <Subtitle studentsLength={studentsListData.length} />
+      <ListStudents />
+      <Title title="BLOG ARTICLES" />
+      <ListArticles />
     </div>
-    );
+  );
 }
-
-// obiect = { name: roxana }  => obiect.name = roxana
 
 export default App;

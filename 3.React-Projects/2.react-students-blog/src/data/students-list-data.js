@@ -5,7 +5,7 @@ const studentsListData = [
         lastName: 'Randolph',
         course: 'Frontend',
         email: 'martin.randolph@gmail.com',
-        color: 'black'
+        color: 'blue'
     },
     {
         id: 2,
