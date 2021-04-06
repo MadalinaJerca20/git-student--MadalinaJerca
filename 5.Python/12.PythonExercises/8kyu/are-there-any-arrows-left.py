@@ -1,0 +1,25 @@
+def any_arrows(arrows):
+    return not all(arrow.get('damaged', False) for arrow in arrows)
+
+
+print(any_arrows([]), False, "Should handle empty quiver")
+print(any_arrows([{'range': 5}, {'range': 10, 'damaged': True}, {
+    'damaged': True}]), True, "Should handle quiver with undamaged arrows")
+print(any_arrows([{'range': 10, 'damaged': True}, {
+    'damaged': True}]), False, "Should handle quiver with damaged arrows")
+
+
+'''
+# Details
+    You have a quiver of arrows, but some have been damaged. The quiver contains arrows with an optional
+    range information(different types of targets are positioned at different ranges), so each item is an
+    arrow.
+    You need to verify that you have some good ones left, in order to prepare for battle:
+        anyArrows([{'range': 5}, {'range': 10, 'damaged': True}, {'damaged': True}])
+    If an arrow in the quiver does not have a damaged status, it means it's new.
+    The expected result is a boolean, indicating whether you have any good arrows left.
+
+# Exemplu 1
+def any_arrows(arrows):
+    return any(not i.get("damaged", False) for i in arrows)
+'''
