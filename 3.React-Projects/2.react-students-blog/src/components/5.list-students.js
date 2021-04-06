@@ -18,11 +18,11 @@ function ListStudents() {
     showStudentList ? setStudentList(false) : setStudentList(true);
   };
 
-  let proxy = [];
+  let renderedStudentsList = [];
   if (showStudentList === true) {
-    proxy = studentsListData;
+    renderedStudentsList = studentsListData;
   } else {
-    proxy = [];
+    renderedStudentsList = [];
   }
 
   return (
@@ -34,7 +34,7 @@ function ListStudents() {
         buttonTitle={showStudentList ? "Hide students" : "Show students"}
       />
 
-      {proxy.map((dateStudent) => (
+      {renderedStudentsList.map((dateStudent) => (
         <Student
           key={dateStudent.id}
           data={dateStudent}
