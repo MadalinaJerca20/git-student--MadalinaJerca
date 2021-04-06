@@ -7,9 +7,3 @@ function conf() {
 
 conf();
 
-
-// IIFE 
-// (function conf() {
-//   confirm('Hey are you still there?');
-//   setTimeout(conf, 5000);
-// })();

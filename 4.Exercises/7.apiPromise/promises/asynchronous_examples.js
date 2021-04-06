@@ -19,20 +19,11 @@ getUserInfo('12', (error, data) => {
 console.log('ceva');
 console.log('cev2');
 console.log('cev3');
-///////////////////////////////////////////////////////
-
-// Callback Hell
-getUserInfo('12', (userInfo) => {
-  getUserAddress('12', (userAddress) => {
-    getUserFriends('12', (userFriends) => {
-      
-    });
-  });
-});
 
 ///////////////////////////////////////////////////////
 
-//  II. PROMISES * o alternativa pentru callback hell
+
+//  II. PROMISES 
  
 getUserInfo('12')
   .then((userInfo) => console.log(userInfo))
@@ -48,7 +39,7 @@ console.log('ceva3');
 
 ///////////////////////////////////////////////////////
 
-//  II. ASYNC / AWAIT * o alta alternativa pentru callback hell
+//  II. ASYNC / AWAIT 
 
 async function main() {
   const userInfo = await getUserInfo('12');
@@ -83,16 +74,6 @@ getUserInfo('12', (error, data) => {
 
 
 // II.
-getUserInfo('12')
-  .then((userInfo) => console.log(userInfo))
-  .then(() => getUserAddress('12'))
-  .then((userAddress) => console.log(userAddress))
-  .then(() => getUserFriends('12'))
-  .then((userFriends) => console.log(userFriends))
-  .then(() => console.log('ceva4'));
-  .catch((error) => console.log(error)); // we need try?
-
-// III.
 async function main() {
   try {
   const userInfo = await getUserInfo('12');

@@ -28,11 +28,3 @@ async function main() {
 
 main();
 
-
-// json este un concept, un mod de comunicare intre doua servere, doua programe, doua functii
-// pentru ca aplicatiile sa comunice intre ele, au nevoie de un format standard a mesajelor 
-// mesajul standard poarta numele de serializare
-// Serialization means to convert an object into that string, and deserialization is its inverse operation (convert string -> object).
-// serializarea poate fi csv, json, etc
-// modul standard in javascript este json
-// by default, fetch foloseste metoda get

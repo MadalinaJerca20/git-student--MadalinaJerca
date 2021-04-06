@@ -18,8 +18,4 @@ console.log('test5');
 console.log('test6');
 
 
-// functia trebuie sa returneze un promise dupa 5 secunde
-// un promise care contine o lista de numere si pe care trebuie sa le trimitem la consola
-// instantiem clasa promise, iar constructorul acelei clase primeste un callback
-// callback care are doi parametrii, resolve si refect
 
