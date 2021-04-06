@@ -60,7 +60,7 @@ const App = () => {
 
     if (enterPassword.length < 8) {
       if (errorMessage) {
-        errorMessage += " and password must be at least 8 characters, ";
+        errorMessage += " and password must be at least 8 characters ";
       } else {
         errorMessage = "Password must be at least 8 characters";
       }
