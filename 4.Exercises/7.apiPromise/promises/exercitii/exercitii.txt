@@ -1,0 +1,23 @@
+1. Build a HTML digital clock with a stop button. When pressing "stop", the clock will freeze. Time format: "h21:m00:s05"
+
+2. Show a confirm dialog with the text "Hey are you still there?", every 5 seconds exactly.
+
+3. Build a function that returns a promise after 5 seconds. The promise must containing an array of numbers. Log the the numbers.
+
+4. Build two function that both returns promises and display the resolved value only for the one that completes first. (Promise.race())
+
+5. Build three function that returns promises. One of the functions must reject. Display the first promise that completes successfully. (Promise.any())
+
+6. Build a promise that rejects with an error. Log the error. (Promise.catch())
+
+7. Build two function that returns promises. One will reject and the other will resolve. Capture and log all responses. 
+   (Promise.allSettled())
+
+8. Build a function that rejects with an error. Log a custom message after the promise rejects, without catching the error. (Promise.finally())
+
+9. Get all users from https://60623f0b0133350017fd0e29.mockapi.io/users and display their names in HTML.
+
+10. Create a new user by sending a POST request to the backend server. 
+    Log the received http status code and the id of the newly created user.
+    (POST https://60623f0b0133350017fd0e29.mockapi.io/users).
+ 
