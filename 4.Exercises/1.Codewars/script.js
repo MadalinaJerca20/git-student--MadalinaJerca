@@ -219,8 +219,8 @@ buttonReverseWord.addEventListener("click", () => {
 //------------------------------------------------------------------------
 //  5. STRINGS
 //------------------------------------------------------------------------
-function capitalLetter(letter) {
-  lett = letter.split(" ");
+function capitalLetter(text) {
+  lett = text.split(" ");
 
   for (i = 0; i < lett.length; i++) {
     lett[i] = lett[i].charAt(0).toUpperCase(0) + lett[i].slice(1);
