@@ -1,1 +1,1 @@
-6TH APRIL 2021 | PROJECTS AND EXERCISES I’VE BEEN WORKING ON IN THE LAST 5 MONTHS, SINCE I BECAME A CODECOOL STUDENT.
+6th April 2021 | Projects and exercises I've been working on in the last 5 months, since I became a Codecool student.
