@@ -60,3 +60,9 @@
 ## Hints
 
 - to change the layout from 3 items / row to 1 item / row use the responsive feature of bootstrap classes
+
+## Images
+
+![img1](https://user-images.githubusercontent.com/70704394/132097477-9350a43c-4917-42b7-8267-d3fca5596962.png)
+![img2](https://user-images.githubusercontent.com/70704394/132097479-0d6a75df-3c59-46d4-a2ba-82c2cb49ce00.png)
+
