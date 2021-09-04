@@ -31,3 +31,8 @@
 
 5. Implement the function `isSpaceFree` from the file `part5/script.js`
     - Opening `part5/index.html` with a web browser, if you click on A1 and `X` (or `O`) is set, the second time you click on that location you get the message  `That square is already occupied.  Please select another square.`
+
+## Images
+
+![img1](https://user-images.githubusercontent.com/70704394/132097518-42ed990a-12bc-4023-ade1-0017c971b0a7.png)
+
