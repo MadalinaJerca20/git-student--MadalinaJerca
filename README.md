@@ -1,1 +1,9 @@
-6th April 2021 | Projects and exercises I've been working on in the last 5 months, since I became a Codecool student.
+### Welcome to my GitHub
+
+## What you will see here?
+
+ My 7-months journey of learning programming, starting from scratch, to where I am now.
+ You will find projects that I've worked on, starting from simple HTML  + CSS, to using complex framework like React.
+ I've also added exercises that I found them really useful in my learning process. 
+ 
+
