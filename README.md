@@ -1,6 +1,6 @@
-### Welcome to my GitHub
+## Welcome to my GitHub
 
-## What you will see here?
+### What you will see here?
 
  My 7-months journey of learning programming, starting from scratch, to where I am now.
  You will find projects that I've worked on, starting from simple HTML  + CSS, to using complex framework like React.
