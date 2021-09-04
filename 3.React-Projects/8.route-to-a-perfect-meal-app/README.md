@@ -46,3 +46,7 @@ None
 - <i class="far fa-book-open"></i> [Importing css files to react](https://create-react-app.dev/docs/adding-a-stylesheet/)
 - <i class="far fa-book-open"></i> [Adding css styles to react](https://www.w3schools.com/react/react_css.asp)
 - <i class="far fa-book-open"></i> [Debugging a React project](https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/)
+
+## Images
+
+![img1](https://user-images.githubusercontent.com/70704394/132097926-ffffe0db-470a-43fe-a8d9-f17a54c9165a.png)
