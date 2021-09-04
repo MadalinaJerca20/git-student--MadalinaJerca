@@ -49,3 +49,7 @@
     - The label for the button to apply the entered coupon is updated to the selected language
     - The text for which describes the random product of the day which is on offer is updated to the selected language
 
+## Images
+
+![img1](https://user-images.githubusercontent.com/70704394/132097814-5bb40d16-94b1-48c4-9ce2-8f26598e700d.png)
+
