@@ -63,3 +63,8 @@ None
 - <i class="far fa-book-open"></i> [Introduction to JSX](https://reactjs.org/docs/introducing-jsx.html)
 - <i class="far fa-book-open"></i> [Display lists in React](https://scotch.io/starters/react/handling-lists-in-react-jsx)
 - <i class="far fa-book-open"></i> [Debugging a React project](https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/)
+
+## Images
+
+![img1](https://user-images.githubusercontent.com/70704394/132097888-f62fd95c-2c77-47d4-a693-b000d36667c0.png)
+
