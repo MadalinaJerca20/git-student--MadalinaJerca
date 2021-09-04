@@ -74,3 +74,9 @@ Create a website for the local grocery store.
 - once you start the project you first need to install the react library with `npm install`
 - once all the react libraries are installed, you can start the project  with `npm start`
 - when updating an array through a react hook it is necessary to give as parameter for the setter a new array instead of the current array with a modified object (more info in background materials)
+
+## Images
+
+![img1](https://user-images.githubusercontent.com/70704394/132097783-5a5f972a-266b-4a77-964a-29b5710cfbf5.png)
+![img2](https://user-images.githubusercontent.com/70704394/132097786-3d85698f-dfae-4159-b577-0298a46b2d39.png)
+
